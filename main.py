@@ -30,14 +30,14 @@ driver.find_element(By.XPATH, "//a[contains(text(), 'サインイン')][@aria-la
 
 time.sleep(2)
 
-driver.find_element(By.XPATH, "//input[@type='email']").send_keys("ytakada_dc@yahoo.co.jp\n")
+driver.find_element(By.XPATH, "//input[@type='email']").send_keys("")
 driver.find_element(By.XPATH, "//input[@type='email']").send_keys(Keys.ENTER)
 time.sleep(1)
 driver.find_element(By.XPATH, "//span[contains(text(), 'その他のサインイン方法')]").click()
 time.sleep(1)
 driver.find_element(By.XPATH, "//span[contains(text(), 'パスワードを使用する')]").click()
 time.sleep(1)
-driver.find_element(By.XPATH, "//input[@type='password']").send_keys("Gatag0to")
+driver.find_element(By.XPATH, "//input[@type='password']").send_keys("")
 driver.find_element(By.XPATH, "//input[@type='password']").send_keys(Keys.ENTER)
 time.sleep(1)
 driver.find_element(By.XPATH, "//button[contains(text(), 'はい')]").click()
