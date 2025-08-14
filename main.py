@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import numpy as np
+#import numpy as np
 
 #options = Options()
 """options.add_argument('--user-data-dir=/users/al/chrome3')
